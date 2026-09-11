@@ -108,7 +108,7 @@ with st.sidebar:
 
 raw_ingredients = st.text_area(
     "Ingredients (one per line, or comma separated)",
-    value="Rice\nTomatoes\nMeat\nMaggi Seasoning\nVegetable Oil\nSalt",
+    value="",
     height=160,
 )
 
