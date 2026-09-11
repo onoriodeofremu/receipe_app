@@ -6,12 +6,11 @@ Run with:  streamlit run recipe_app.py
 import json
 import os
 from datetime import datetime
-os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 import streamlit as st
 from dotenv import load_dotenv
 import google.genai as genai
 from google.genai import types
-
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 load_dotenv()
 
 # Verified reachable on this API key; the 2.5 series 404s for new users.
